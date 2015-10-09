@@ -7,3 +7,7 @@
 - 修改配置
 	-	修改本地 git config user.name xiaojuese
 	-	修改全局 git config --global user.name xiaojuese
+	
+## 恢复
+- git revert 是撤销某次操作，此次操作之前的commit都会被保留
+- git reset 是撤销某次提交，但是此次之后的修改都会被退回到暂存区
